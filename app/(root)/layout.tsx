@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 }
 
 
-export function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -40,5 +40,3 @@ export function RootLayout({
     </ClerkProvider>
   );
 }
-
-export default RootLayout;
