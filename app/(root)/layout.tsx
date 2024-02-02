@@ -1,5 +1,5 @@
 import '../globals.css'
-import type { Metadata } from 'next'
+// import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 export const inter = Inter({ subsets: ['latin'] })
@@ -9,10 +9,10 @@ import LeftSidebar from '@/components/shared/LeftSidebar';
 import RightSidebar from '@/components/shared/RightSidebar';
 import Bottombar from '@/components/shared/Bottombar';
 
-export const metadata: Metadata = {
-  title: 'Threads',
-  description: 'A Next.js 13 Meta Threads Application'
-}
+// export const metadata: Metadata = {
+//   title: 'Threads',
+//   description: 'A Next.js 13 Meta Threads Application'
+// }
 
 
 export default function RootLayout({
